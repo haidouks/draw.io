@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T21:50:21.391Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="1l4ux0A10ukDYm5KlbTB" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-08T21:55:41.278Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="COvcPPPJ55y9-afBv-cr" version="14.4.4" type="github">
   <diagram id="0_Pe4eXvfOU6qmhsP7j4" name="Page-1">
     <mxGraphModel dx="1538" dy="1999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
           <mxGeometry x="50" y="16" width="88" height="88" as="geometry" />
         </mxCell>
         <mxCell id="f1VP-ZpTaFvrlX2AiYO5-21" value="" style="group;sketch=1;" vertex="1" connectable="0" parent="f1VP-ZpTaFvrlX2AiYO5-24">
-          <mxGeometry x="25" y="290" width="140" height="110" as="geometry" />
+          <mxGeometry x="25" y="290" width="146.06" height="110" as="geometry" />
         </mxCell>
         <mxCell id="f1VP-ZpTaFvrlX2AiYO5-16" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="f1VP-ZpTaFvrlX2AiYO5-21">
           <mxGeometry width="140" height="110" as="geometry" />
@@ -43,8 +43,8 @@
         <mxCell id="f1VP-ZpTaFvrlX2AiYO5-17" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="f1VP-ZpTaFvrlX2AiYO5-21">
           <mxGeometry x="10" y="70" width="37.8" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="f1VP-ZpTaFvrlX2AiYO5-18" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/essential-3/32/367-Computer-128.png;sketch=1;" vertex="1" parent="f1VP-ZpTaFvrlX2AiYO5-21">
-          <mxGeometry x="50" y="10" width="68" height="68" as="geometry" />
+        <mxCell id="f1VP-ZpTaFvrlX2AiYO5-100" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;rounded=0;shadow=0;sketch=0;strokeColor=#000000;fillColor=none;fontFamily=Comic Sans MS;fontSize=14;fontColor=#FF3333;image=https://raw.githubusercontent.com/Thomas-X/jsonapi-mock/master/jsonapi.jpg;" vertex="1" parent="f1VP-ZpTaFvrlX2AiYO5-21">
+          <mxGeometry x="14" y="25" width="126.06" height="32" as="geometry" />
         </mxCell>
         <mxCell id="f1VP-ZpTaFvrlX2AiYO5-22" value="Geliştirme Ortamı" style="text;html=1;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;sketch=1;fontSize=14;fontStyle=1" vertex="1" parent="f1VP-ZpTaFvrlX2AiYO5-24">
           <mxGeometry x="80" y="420" width="40" height="20" as="geometry" />
@@ -89,13 +89,13 @@
         <mxCell id="f1VP-ZpTaFvrlX2AiYO5-42" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;rounded=0;shadow=1;sketch=1;fillColor=none;fontFamily=Comic Sans MS;fontSize=14;image=https://miro.medium.com/max/1400/1*LNGlN72rGhNqx6YcPiF0GQ.png;" vertex="1" parent="f1VP-ZpTaFvrlX2AiYO5-48">
           <mxGeometry x="25" y="8.23529411764706" width="123.40333998005983" height="39.63110667996012" as="geometry" />
         </mxCell>
-        <mxCell id="f1VP-ZpTaFvrlX2AiYO5-43" value="Unit Tests" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;sketch=1;fillColor=none;fontFamily=Comic Sans MS;fontSize=14;" vertex="1" parent="f1VP-ZpTaFvrlX2AiYO5-48">
+        <mxCell id="f1VP-ZpTaFvrlX2AiYO5-43" value="Birim Testler" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;sketch=1;fillColor=none;fontFamily=Comic Sans MS;fontSize=14;" vertex="1" parent="f1VP-ZpTaFvrlX2AiYO5-48">
           <mxGeometry x="75.00000000000001" y="61.764705882352935" width="100" height="49.41176470588235" as="geometry" />
         </mxCell>
-        <mxCell id="f1VP-ZpTaFvrlX2AiYO5-44" value="Code Review" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;fontFamily=Comic Sans MS;fontSize=14;fillColor=none;sketch=1;" vertex="1" parent="f1VP-ZpTaFvrlX2AiYO5-48">
+        <mxCell id="f1VP-ZpTaFvrlX2AiYO5-44" value="Kod Gözden Geçirme" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;fontFamily=Comic Sans MS;fontSize=14;fillColor=none;sketch=1;" vertex="1" parent="f1VP-ZpTaFvrlX2AiYO5-48">
           <mxGeometry x="241.66666666666669" y="61.764705882352935" width="100" height="49.41176470588235" as="geometry" />
         </mxCell>
-        <mxCell id="f1VP-ZpTaFvrlX2AiYO5-46" value="Publish Image" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;fontFamily=Comic Sans MS;fontSize=14;fillColor=none;sketch=1;" vertex="1" parent="f1VP-ZpTaFvrlX2AiYO5-48">
+        <mxCell id="f1VP-ZpTaFvrlX2AiYO5-46" value="Imaj Oluşturma" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;fontFamily=Comic Sans MS;fontSize=14;fillColor=none;sketch=1;" vertex="1" parent="f1VP-ZpTaFvrlX2AiYO5-48">
           <mxGeometry x="408.33333333333337" y="61.764705882352935" width="100" height="49.41176470588235" as="geometry" />
         </mxCell>
         <mxCell id="f1VP-ZpTaFvrlX2AiYO5-45" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=14;" edge="1" parent="f1VP-ZpTaFvrlX2AiYO5-48" source="f1VP-ZpTaFvrlX2AiYO5-43" target="f1VP-ZpTaFvrlX2AiYO5-44">
