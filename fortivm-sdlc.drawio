@@ -1,1 +1,165 @@
-<mxfile host="app.diagrams.net" modified="2021-03-27T20:48:49.759Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" version="14.4.4" etag="7Pra6qSbgAHYxrjBQjb8" type="github"><diagram id="qVIhUfGOxHhD-En7qDgk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-27T21:26:51.574Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="2j3GN5SmC__4jF8Bi6h9" version="14.4.4" type="github">
+  <diagram id="qVIhUfGOxHhD-En7qDgk" name="Page-1">
+    <mxGraphModel dx="1298" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ni-Lq4xA3TOL53TlgDrj-1" target="Ni-Lq4xA3TOL53TlgDrj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-1" value="Cloud Team" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ni-Lq4xA3TOL53TlgDrj-2" target="Ni-Lq4xA3TOL53TlgDrj-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-2" value="bitbucket&lt;br&gt;fortivm-pwsh-module" style="whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="140" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-4" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Jenkins" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="87.5" width="595" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ni-Lq4xA3TOL53TlgDrj-6" target="Ni-Lq4xA3TOL53TlgDrj-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-6" value="pester unit tests" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="365" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ni-Lq4xA3TOL53TlgDrj-9" target="Ni-Lq4xA3TOL53TlgDrj-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-9" value="code review" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="548" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-13" value="publish module" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-15" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;artifactory" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="305" width="490" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-21" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="725" y="390" width="150" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-17" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;virtual-nuget" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Ni-Lq4xA3TOL53TlgDrj-21">
+          <mxGeometry y="-42.5" width="150" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-19" value="fortivmdeployment&lt;br&gt;nuget package" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="Ni-Lq4xA3TOL53TlgDrj-21">
+          <mxGeometry x="15" y="-27.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ni-Lq4xA3TOL53TlgDrj-13" target="Ni-Lq4xA3TOL53TlgDrj-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-23" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="420" y="385" width="140" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-16" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;virtual-docker&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Ni-Lq4xA3TOL53TlgDrj-23">
+          <mxGeometry y="-42.5" width="140" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-7" value="pwsh base image" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Ni-Lq4xA3TOL53TlgDrj-23">
+          <mxGeometry x="10" y="-27.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-12" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="Ni-Lq4xA3TOL53TlgDrj-9" target="Ni-Lq4xA3TOL53TlgDrj-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="200" as="sourcePoint" />
+            <mxPoint x="410" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-8" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="Ni-Lq4xA3TOL53TlgDrj-6" target="Ni-Lq4xA3TOL53TlgDrj-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="470" as="sourcePoint" />
+            <mxPoint x="330" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-25" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="Ni-Lq4xA3TOL53TlgDrj-13" target="Ni-Lq4xA3TOL53TlgDrj-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="200" as="sourcePoint" />
+            <mxPoint x="500" y="367.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-32" value="Operator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="660" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-33" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Jenkins" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="600" width="870" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ni-Lq4xA3TOL53TlgDrj-34" target="Ni-Lq4xA3TOL53TlgDrj-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-34" value="&lt;br&gt;FortiVM&lt;br&gt;Automtion&lt;br&gt;Inputs" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="235" y="640" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ni-Lq4xA3TOL53TlgDrj-32" target="Ni-Lq4xA3TOL53TlgDrj-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-37" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/jenkins-128.png;align=center;" vertex="1" parent="1">
+          <mxGeometry x="315" y="194.5" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-38" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/jenkins-128.png;align=center;" vertex="1" parent="1">
+          <mxGeometry x="140" y="752" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-41" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#FF8000;strokeWidth=2;" edge="1" parent="1" source="Ni-Lq4xA3TOL53TlgDrj-42" target="Ni-Lq4xA3TOL53TlgDrj-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="548" y="641.8987341772151" as="sourcePoint" />
+            <mxPoint x="310" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ni-Lq4xA3TOL53TlgDrj-42" target="Ni-Lq4xA3TOL53TlgDrj-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-42" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="440" y="650" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ni-Lq4xA3TOL53TlgDrj-43" target="Ni-Lq4xA3TOL53TlgDrj-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-43" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="640" y="650" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-45" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="840" y="650" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-47" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#FF8000;" edge="1" parent="1" source="Ni-Lq4xA3TOL53TlgDrj-43" target="Ni-Lq4xA3TOL53TlgDrj-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="660" as="sourcePoint" />
+            <mxPoint x="810" y="462.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-48" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#FF8000;" edge="1" parent="1" source="Ni-Lq4xA3TOL53TlgDrj-45" target="Ni-Lq4xA3TOL53TlgDrj-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="670" as="sourcePoint" />
+            <mxPoint x="820" y="472.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-66" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="475" y="669.5" width="50" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-67" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="675" y="669.5" width="50" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-68" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="875" y="669.5" width="50" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-70" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="Ni-Lq4xA3TOL53TlgDrj-67" target="Ni-Lq4xA3TOL53TlgDrj-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="509.2931034482758" y="679.5" as="sourcePoint" />
+            <mxPoint x="501.98275862068976" y="467.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-71" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="Ni-Lq4xA3TOL53TlgDrj-66" target="Ni-Lq4xA3TOL53TlgDrj-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="691.483870967742" y="679.5" as="sourcePoint" />
+            <mxPoint x="500" y="467.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ni-Lq4xA3TOL53TlgDrj-72" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="Ni-Lq4xA3TOL53TlgDrj-68" target="Ni-Lq4xA3TOL53TlgDrj-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="691.483870967742" y="679.5" as="sourcePoint" />
+            <mxPoint x="500" y="467.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
