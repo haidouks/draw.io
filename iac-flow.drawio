@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T07:11:29.622Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="gq1aYwHgtW2fkixJeBuF" version="14.4.4" type="github">
-  <diagram id="VId-ajfQ98P209X-Y0n-" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2021-05-07T07:13:29.550Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="jaW3v7XWQThh3zEBvwMI" version="14.4.4" type="github">
+  <diagram id="VId-ajfQ98P209X-Y0n-" name="Genel Bakış">
     <mxGraphModel dx="1298" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -10,7 +10,7 @@
         <mxCell id="7JM_dHLCx0jgmLOJxTqQ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7JM_dHLCx0jgmLOJxTqQ-2" target="7JM_dHLCx0jgmLOJxTqQ-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7JM_dHLCx0jgmLOJxTqQ-2" value="Automation Form" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="7JM_dHLCx0jgmLOJxTqQ-2" value="Otomasyon Formu" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="105" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7JM_dHLCx0jgmLOJxTqQ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7JM_dHLCx0jgmLOJxTqQ-4" target="7JM_dHLCx0jgmLOJxTqQ-6">
@@ -70,7 +70,7 @@
             <mxPoint x="200" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7JM_dHLCx0jgmLOJxTqQ-37" value="&lt;ul&gt;&lt;li&gt;Dinamik Form&lt;br&gt;&lt;/li&gt;&lt;li&gt;Admin Onayı / Editleme&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;spacingTop=0;spacing=0;" vertex="1" parent="1">
+        <mxCell id="7JM_dHLCx0jgmLOJxTqQ-37" value="&lt;ul&gt;&lt;li&gt;Dinamik Form&lt;br&gt;&lt;/li&gt;&lt;li&gt;Yönetici Onayı&lt;/li&gt;&lt;li&gt;Admin Onayı / Editleme&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;spacingTop=10;spacing=0;" vertex="1" parent="1">
           <mxGeometry x="62.5" y="600" width="205" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7JM_dHLCx0jgmLOJxTqQ-38" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="7JM_dHLCx0jgmLOJxTqQ-39" target="7JM_dHLCx0jgmLOJxTqQ-4">
