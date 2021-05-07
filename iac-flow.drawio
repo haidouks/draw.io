@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T06:47:26.800Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="WMVBMrfzJA-TE3yphbLr" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-07T07:11:29.622Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="gq1aYwHgtW2fkixJeBuF" version="14.4.4" type="github">
   <diagram id="VId-ajfQ98P209X-Y0n-" name="Page-1">
     <mxGraphModel dx="1298" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -44,28 +44,55 @@
           <mxGeometry x="505" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7JM_dHLCx0jgmLOJxTqQ-10" value="vRO" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="690" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7JM_dHLCx0jgmLOJxTqQ-12" value="Openshift" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="130" width="120" height="60" as="geometry" />
+          <mxGeometry x="690" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7JM_dHLCx0jgmLOJxTqQ-17" value="AWX" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="830" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7JM_dHLCx0jgmLOJxTqQ-19" value="System Center Automation" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="780" y="130" width="120" height="60" as="geometry" />
+          <mxGeometry x="830" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7JM_dHLCx0jgmLOJxTqQ-22" value="Any Scripts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="130" width="120" height="60" as="geometry" />
+          <mxGeometry x="970" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7JM_dHLCx0jgmLOJxTqQ-23" value="Http Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="1">
-          <mxGeometry x="920" y="170" width="120" height="20" as="geometry" />
+        <mxCell id="7JM_dHLCx0jgmLOJxTqQ-23" value="Akıllı Rest Sunucu" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="1">
+          <mxGeometry x="970" y="170" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="7JM_dHLCx0jgmLOJxTqQ-25" value="Http Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="1">
-          <mxGeometry x="780" y="170" width="120" height="20" as="geometry" />
+        <mxCell id="7JM_dHLCx0jgmLOJxTqQ-25" value="Akıllı Rest Sunucu" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="1">
+          <mxGeometry x="830" y="170" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="7JM_dHLCx0jgmLOJxTqQ-27" value="&lt;font color=&quot;#ff8000&quot;&gt;&lt;span style=&quot;font-size: 22px&quot;&gt;REST&lt;br&gt;{JSON}&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="650" y="280" width="70" height="20" as="geometry" />
+        <mxCell id="7JM_dHLCx0jgmLOJxTqQ-35" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="7JM_dHLCx0jgmLOJxTqQ-37" target="7JM_dHLCx0jgmLOJxTqQ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="165" y="470" as="sourcePoint" />
+            <mxPoint x="200" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7JM_dHLCx0jgmLOJxTqQ-37" value="&lt;ul&gt;&lt;li&gt;Dinamik Form&lt;br&gt;&lt;/li&gt;&lt;li&gt;Admin Onayı / Editleme&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;spacingTop=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="62.5" y="600" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7JM_dHLCx0jgmLOJxTqQ-38" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="7JM_dHLCx0jgmLOJxTqQ-39" target="7JM_dHLCx0jgmLOJxTqQ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="600" as="sourcePoint" />
+            <mxPoint x="360" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7JM_dHLCx0jgmLOJxTqQ-39" value="&lt;ul&gt;&lt;li&gt;Yetkinlendirme&lt;/li&gt;&lt;li&gt;Zaman Aşımı&lt;/li&gt;&lt;li&gt;İstek Sınırlama / Filtreleme&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;spacingTop=10;spacing=-1;" vertex="1" parent="1">
+          <mxGeometry x="262.5" y="600" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7JM_dHLCx0jgmLOJxTqQ-27" value="&lt;font color=&quot;#ff8000&quot;&gt;&lt;span style=&quot;font-size: 22px&quot;&gt;REST&lt;br&gt;{JSON}&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontStyle=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="255" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7JM_dHLCx0jgmLOJxTqQ-43" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="7JM_dHLCx0jgmLOJxTqQ-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="565" y="600" as="sourcePoint" />
+            <mxPoint x="580" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7JM_dHLCx0jgmLOJxTqQ-44" value="&lt;ul&gt;&lt;li&gt;Deklaratif&lt;/li&gt;&lt;li&gt;Parametre standartlaştırma&lt;/li&gt;&lt;li&gt;Uç Noktalara erişim&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;spacingTop=10;spacing=-1;" vertex="1" parent="1">
+          <mxGeometry x="462.5" y="600" width="205" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
