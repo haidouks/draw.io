@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T08:49:39.899Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="UEyuQktyclIBplNGpqj9" version="14.7.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-27T09:12:31.737Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="wGocS2zzGXoUC5trbpo_" version="14.7.0" type="github" pages="3">
   <diagram id="VId-ajfQ98P209X-Y0n-" name="Genel Bakış">
     <mxGraphModel dx="2148" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -243,7 +243,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ljlfENb2KFw6_GB8J3CU" name="Deklaratif API">
-    <mxGraphModel dx="2377" dy="1058" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="852" dy="1" grid="0" gridSize="10" guides="0" tooltips="0" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="7SakCC6486lLqnIziU-p-0" />
         <mxCell id="7SakCC6486lLqnIziU-p-1" parent="7SakCC6486lLqnIziU-p-0" />
@@ -269,13 +269,20 @@
         <mxCell id="bgNRYR3nyqSOsnWmk-Ru-1" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="7SakCC6486lLqnIziU-p-1" source="2hboyqDm5-IHJ_fjOp0c-0" target="bgNRYR3nyqSOsnWmk-Ru-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bgNRYR3nyqSOsnWmk-Ru-4" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7SakCC6486lLqnIziU-p-1" source="2hboyqDm5-IHJ_fjOp0c-0" target="bgNRYR3nyqSOsnWmk-Ru-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="bWltIerorGYCGSwpx-Cn-2" value="&lt;b&gt;&lt;font color=&quot;#ff1463&quot;&gt;PUT&lt;/font&gt;&amp;nbsp;https://vro/api/new-vm&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bgNRYR3nyqSOsnWmk-Ru-1">
+          <mxGeometry x="-0.3624" y="-11" relative="1" as="geometry">
+            <mxPoint x="4" y="32" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="PAC8sFYDX-fUy5ulPYHd-1" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="7SakCC6486lLqnIziU-p-1" source="2hboyqDm5-IHJ_fjOp0c-0" target="PAC8sFYDX-fUy5ulPYHd-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2hboyqDm5-IHJ_fjOp0c-0" value="IaC-API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7SakCC6486lLqnIziU-p-1">
+        <mxCell id="bWltIerorGYCGSwpx-Cn-1" value="&lt;b&gt;&lt;font color=&quot;#ff1463&quot;&gt;POST&lt;/font&gt;&amp;nbsp;https://awx/api/playbooks/new-storage&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PAC8sFYDX-fUy5ulPYHd-1">
+          <mxGeometry x="-0.3616" y="1" relative="1" as="geometry">
+            <mxPoint x="42" y="-81" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2hboyqDm5-IHJ_fjOp0c-0" value="IaC-API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;" vertex="1" parent="7SakCC6486lLqnIziU-p-1">
           <mxGeometry x="70" y="150" width="120" height="490" as="geometry" />
         </mxCell>
         <mxCell id="ECbXTSlHglRZxaM3Idow-0" value="API Gateway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;sketch=1;" vertex="1" parent="7SakCC6486lLqnIziU-p-1">
@@ -284,17 +291,20 @@
         <mxCell id="kCS8zoJ3vExlf5hS-JiJ-0" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;namingConv&quot;:&quot;trcmysql*&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;location&quot;: &quot;gebze&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;count&quot; : 3,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;properties&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;memory&quot;: &quot;4Gi&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;cpu&quot;: &quot;500m&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;disks&quot;:&quot;...&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontFamily=Comic Sans MS;spacing=5;sketch=1;spacingLeft=10;" vertex="1" parent="7SakCC6486lLqnIziU-p-1">
           <mxGeometry x="-360" y="540" width="320" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="5UIaJZc2jjeuNIr7qE-8-2" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;name&quot;:&quot;new-storage&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&quot;other_param&quot;: &quot;my Other Param&quot;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontFamily=Comic Sans MS;spacing=5;sketch=1;spacingLeft=10;" vertex="1" parent="7SakCC6486lLqnIziU-p-1">
+        <mxCell id="5UIaJZc2jjeuNIr7qE-8-2" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;name&quot;:&quot;new-storage&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;other_params&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;paramInt&quot;: 1222&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;paramStr&quot;: &quot;Qweqwe&quot;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontFamily=Comic Sans MS;spacing=5;sketch=1;spacingLeft=10;" vertex="1" parent="7SakCC6486lLqnIziU-p-1">
           <mxGeometry x="-370" y="300" width="320" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="bgNRYR3nyqSOsnWmk-Ru-0" value="vRO" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="7SakCC6486lLqnIziU-p-1">
-          <mxGeometry x="425" y="520" width="120" height="60" as="geometry" />
+        <mxCell id="bgNRYR3nyqSOsnWmk-Ru-0" value="vRO" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="7SakCC6486lLqnIziU-p-1">
+          <mxGeometry x="470" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bgNRYR3nyqSOsnWmk-Ru-3" value="...." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7SakCC6486lLqnIziU-p-1">
-          <mxGeometry x="270" y="365" width="120" height="60" as="geometry" />
+        <mxCell id="PAC8sFYDX-fUy5ulPYHd-0" value="AWX" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="7SakCC6486lLqnIziU-p-1">
+          <mxGeometry x="490" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PAC8sFYDX-fUy5ulPYHd-0" value="AWX" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7SakCC6486lLqnIziU-p-1">
-          <mxGeometry x="425" y="230" width="120" height="60" as="geometry" />
+        <mxCell id="bWltIerorGYCGSwpx-Cn-3" value="&lt;div&gt;###HEADERS####&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;version&quot;:&quot;v0.1&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;Authorization&quot;: &quot;Basic ...&quot;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;###BODY in JSON###&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;namingConv&quot;:&quot;trcmysql*&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;location&quot;: &quot;gebze&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;count&quot; : 3,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;properties&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;memory&quot;: &quot;4Gi&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;cpu&quot;: &quot;500m&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;disks&quot;:&quot;...&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontFamily=Comic Sans MS;spacing=5;sketch=1;spacingLeft=10;" vertex="1" parent="7SakCC6486lLqnIziU-p-1">
+          <mxGeometry x="235" y="570" width="190" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="bWltIerorGYCGSwpx-Cn-4" value="&lt;div&gt;###HEADERS####&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;Authorization&quot;: &quot;Bearer ...&quot;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;###BODY in YAML###&lt;/div&gt;&lt;div&gt;&amp;nbsp; ---&lt;/div&gt;&lt;div&gt;&amp;nbsp; name:&quot;new-storage&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; other_params:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;paramInt: 1222&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;paramStr: &quot;Qweqwe&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontFamily=Comic Sans MS;spacing=5;sketch=1;spacingLeft=10;" vertex="1" parent="7SakCC6486lLqnIziU-p-1">
+          <mxGeometry x="260" y="200" width="190" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
