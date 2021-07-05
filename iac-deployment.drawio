@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2021-07-05T21:19:42.560Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" version="14.8.4" etag="p1DfTfJcw7QN2JlgNKFp" type="github"><diagram id="qfkrBxOEcvVQ_xUCtcZO">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-05T21:29:54.681Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="EvzCLbp6wZiY56t0bbo1" version="14.8.4" type="github">
+  <diagram id="qfkrBxOEcvVQ_xUCtcZO" name="Page-1">
+    <mxGraphModel dx="1298" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="W7bNoC3gTP4azPKJeh1U-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7bNoC3gTP4azPKJeh1U-1" target="W7bNoC3gTP4azPKJeh1U-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7bNoC3gTP4azPKJeh1U-18" value="push commits" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W7bNoC3gTP4azPKJeh1U-3">
+          <mxGeometry x="-0.12" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7bNoC3gTP4azPKJeh1U-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="220" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7bNoC3gTP4azPKJeh1U-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7bNoC3gTP4azPKJeh1U-2" target="W7bNoC3gTP4azPKJeh1U-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7bNoC3gTP4azPKJeh1U-15" value="pull changes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W7bNoC3gTP4azPKJeh1U-6">
+          <mxGeometry x="-0.0927" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7bNoC3gTP4azPKJeh1U-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/141_Git_logo_logos-128.png" vertex="1" parent="1">
+          <mxGeometry x="240" y="220" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7bNoC3gTP4azPKJeh1U-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W7bNoC3gTP4azPKJeh1U-5" target="W7bNoC3gTP4azPKJeh1U-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7bNoC3gTP4azPKJeh1U-12" value="sync &amp;nbsp;build and deployment config" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W7bNoC3gTP4azPKJeh1U-8">
+          <mxGeometry x="-0.3603" y="2" relative="1" as="geometry">
+            <mxPoint x="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7bNoC3gTP4azPKJeh1U-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/1875/1*RgMWYxzOW5dJaslhW3wJ4Q.png;" vertex="1" parent="1">
+          <mxGeometry x="440" y="212.92" width="160" height="74.15" as="geometry" />
+        </mxCell>
+        <mxCell id="W7bNoC3gTP4azPKJeh1U-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7bNoC3gTP4azPKJeh1U-9" target="W7bNoC3gTP4azPKJeh1U-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7bNoC3gTP4azPKJeh1U-13" value="publish image" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W7bNoC3gTP4azPKJeh1U-11">
+          <mxGeometry x="-0.3" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7bNoC3gTP4azPKJeh1U-9" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://redislabs.com/wp-content/uploads/2020/06/logo-square-openshift.png;" vertex="1" parent="1">
+          <mxGeometry x="465" y="420" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="W7bNoC3gTP4azPKJeh1U-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="W7bNoC3gTP4azPKJeh1U-10" target="W7bNoC3gTP4azPKJeh1U-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="400" />
+              <mxPoint x="990" y="550" />
+              <mxPoint x="520" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7bNoC3gTP4azPKJeh1U-17" value="pulll new image" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W7bNoC3gTP4azPKJeh1U-16">
+          <mxGeometry x="0.1528" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7bNoC3gTP4azPKJeh1U-10" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.qbssoftware.com/image/cache/catalog/qbs/artifactor-550x550.png;" vertex="1" parent="1">
+          <mxGeometry x="750" y="320" width="160" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
